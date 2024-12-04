@@ -1,0 +1,13 @@
+# Compiled source files
+/_build
+/deps
+/erl_crash.dump
+
+# Static analysis build artifacts
+/.dialyzer.plts
+
+# OTP release artifacts
+/rel
+
+# Vim swap files
+.*.sw?
