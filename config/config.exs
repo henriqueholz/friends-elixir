@@ -1,7 +1,9 @@
 import Config
 
+config :friends, ecto_repos: [Friends.Repo]
+
 config :friends, Friends.Repo,
-  database: "friends_repo",
-  username: "user",
-  password: "pass",
+  database: "friends",
+  username: "postgres",
+  password: "",
   hostname: "localhost"
