@@ -1,0 +1,9 @@
+{application,friends,
+             [{config_mtime,1733313074},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"friends"},
+              {modules,['Elixir.Friends','Elixir.Friends.Application']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Friends.Application',[]}}]}.
